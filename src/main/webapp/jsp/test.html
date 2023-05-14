@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .count {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+        .label {
+            font-size: 24px;
+            color: #666;
+        }
+        .test th {
+            background-color: #f2f2f2;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+<h1>Online Users</h1>
+<div class="container">
+
+    <div class="count">
+        <input type="button" value="查看在线员工人数" id="listener">
+    </div>
+    <div id="data-container">
+
+    </div>
+
+
+    <div class = "container">
+        <a href="http://localhost:8080/EmpInfoServlet">查看在线员工信息</a>
+        <table class="test">
+
+            <tr>
+                <th>员工id</th>
+                <th>员工姓名</th>
+                <th>员工电话</th>
+            </tr>
+
+                    <tr>
+                        <th>1</th>
+                        <th>admin</th>
+                        <th>123456789012</th>
+                    </tr>
+
+        </table>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
